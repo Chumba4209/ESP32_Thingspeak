@@ -10,7 +10,7 @@ This project uses an **ESP32**, a **BMP180 sensor**, and an **OLED display** to 
 - 🖥 Displays readings on an OLED screen (128x64)
 - 🔧 No hard-coded credentials – all done via config portal
 
----
+
 
 ##  Hardware Requirements
 
@@ -27,7 +27,7 @@ This project uses an **ESP32**, a **BMP180 sensor**, and an **OLED display** to 
 | SDA        | -    | 23   |
 | SCL        | -    | 22   |
 
----
+
 
 ##  Libraries Used
 
@@ -40,7 +40,7 @@ Install the following libraries from the Arduino Library Manager:
 - `Wire`
 - `WiFi` (built-in with ESP32)
 
----
+
 
 ##  Getting Started
 
@@ -61,7 +61,7 @@ Then click **Save**.
 ### 5. ESP32 will reboot and connect to WiFi  
 It will start sending sensor data to ThingSpeak every 30 seconds.
 
----
+
 
 ## 📊 ThingSpeak Configuration
 
@@ -71,7 +71,7 @@ It will start sending sensor data to ThingSpeak every 30 seconds.
 4. Copy the **Write API Key**
 5. Use this key in the WiFiManager portal when setting up the ESP32
 
----
+
 
 ##  Sample Output
 
@@ -85,7 +85,6 @@ It will start sending sensor data to ThingSpeak every 30 seconds.
 ![image](https://github.com/user-attachments/assets/5b1311e5-3560-49ac-a5fb-cfe000e527aa)
 
 
----
 
 ##  Notes
 
@@ -93,7 +92,7 @@ It will start sending sensor data to ThingSpeak every 30 seconds.
 - You can modify the `Wire.begin(23, 22)` line to use different I2C pins.
 - You can reset the saved WiFi credentials by triggering a WiFiManager reset (e.g., via double reset or button press – not included in this example).
 
----
+
 
 ## 📃 License
 
